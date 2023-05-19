@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <title>Exercise 1 - Landing Page</title>
+
+    <!-- bootstrap tailwind -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/creativetimofficial/tailwind-starter-kit/compiled-tailwind.min.css"
+    />
+  </head>
+  <body class="text-gray-800">
+    <!-- Navigation -->
+    <header
+      class="header top-0 bg-white shadow-md flex items-center justify-end px-8 py-02"
+    >
+    <div class="w-3/12 flex justify-start">
+      <a href="">Title</a>
+    </div>
+      <!-- navigation -->
+      <nav class="nav font-normal text-lg">
+        <ul class="flex items-center">
+          <li
+            class="p-4 border-b-2 border-green-500 border-opacity-0 hover:border-opacity-100 hover:text-green-500 duration-200 cursor-pointer active"
+          >
+            <a href="">Home</a>
+          </li>
+          <li
+            class="p-4 border-b-2 border-green-500 border-opacity-0 hover:border-opacity-100 hover:text-green-500 duration-200 cursor-pointer"
+          >
+            <a href="">About</a>
+          </li>
+          <li
+            class="p-4 border-b-2 border-green-500 border-opacity-0 hover:border-opacity-100 hover:text-green-500 duration-200 cursor-pointer"
+          >
+            <a href="">Blog</a>
+          </li>
+          <li
+            class="p-4 border-b-2 border-green-500 border-opacity-0 hover:border-opacity-100 hover:text-green-500 duration-200 cursor-pointer"
+          >
+            <a href="">Contact</a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="w-3/12 flex justify-end">
+        <button class="bg-white hover:bg-gray-100 text-gray-800 font-normal py-2 px-4 border border-gray-400 rounded shadow">
+          Button
+        </button>
+      </div>
+    </header>
+    <main>
+      <div
+        class="relative pt-16 pb-32 flex content-center items-center justify-center"
+        style="min-height: 55vh"
+      >
+        <!-- Background Image -->
+        <div
+          class="absolute top-0 w-full h-full bg-center bg-cover"
+          style="background-image: url()"
+        >
+          <!-- Overlay -->
+          <span
+            id="blackOverlay"
+            class="w-full h-full absolute opacity-75 bg-black"
+          ></span>
+        </div>
+        <!-- Text Over Main Background -->
+        <div class="container relative mx-auto">
+          <div class="items-center flex flex-wrap">
+            <div class="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
+              <div class="pr-12">
+                <h1 class="text-white font-normal text-5xl">Title</h1>
+                <p class="mt-4 text-lg text-gray-300">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum
+                  fuga quis amet ea minima, quidem inventore ratione
+                  accusantium! Magni laudantium delectus, debitis deleniti eum
+                  quis quidem aliquid esse ratione eaque.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <section class="pb-20 -mt-24">
+        
+        <div class="container relative mx-auto">
+          <div class="items-center flex flex-wrap">
+            <div class="w-full lg:w-7/12 px-4 ml-auto mr-auto text-center">
+              <div class="pr-10">
+                <h1 class="text-white font-normal text-3xl">Classes</h1>
+                <p class="mt-4 text-lg text-gray-300">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Alias autem ipsa voluptatibus similique porro corrupti
+                  recusandae enim voluptatem excepturi possimus quos.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- 9 Card Section -->
+        <div class="container mx-auto px-4">
+          <div class="flex flex-wrap">
+            <!-- Card -->
+            <div class="w-full md:w-4/12 px-8 text-center">
+              <div
+                class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg"
+              >
+                <div class="px-4 py-5 flex-auto">
+                  <div
+                    class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-green-400"
+                  ></div>
+                  <!-- Text Box -->
+                  <h6 class="text-xl font-normal">Slide 3</h6>
+                  <p class="mt-2 mb-4 text-gray-600">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit
+                    vitae quaerat facilis incidunt tempora quibusdam, suscipit
+                    numquam quos voluptatibus cum quidem cumque nemo.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- Card -->
+            <div class="w-full md:w-4/12 px-8 text-center">
+              <div
+                class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg"
+              >
+                <div class="px-4 py-5 flex-auto">
+                  <div
+                    class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-green-400"
+                  ></div>
+                  <!-- Text Box -->
+                  <h6 class="text-xl font-semibold">Slide 3</h6>
+                  <p class="mt-2 mb-4 text-gray-600">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit
+                    vitae quaerat facilis incidunt tempora quibusdam, suscipit
+                    numquam quos voluptatibus cum quidem cumque nemo.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- Card -->
+            <div class="w-full md:w-4/12 px-8 text-center">
+              <div
+                class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg"
+              >
+                <div class="px-4 py-5 flex-auto">
+                  <div
+                    class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-green-400"
+                  ></div>
+                  <!-- Text Box -->
+                  <h6 class="text-xl font-semibold">Slide 3</h6>
+                  <p class="mt-2 mb-4 text-gray-600">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit
+                    vitae quaerat facilis incidunt tempora quibusdam, suscipit
+                    numquam quos voluptatibus cum quidem cumque nemo.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- Card -->
+            <div class="w-full md:w-4/12 px-8 text-center">
+              <div
+                class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg"
+              >
+                <div class="px-4 py-5 flex-auto">
+                  <div
+                    class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-green-400"
+                  ></div>
+                  <!-- Text Box -->
+                  <h6 class="text-xl font-semibold">Slide 3</h6>
+                  <p class="mt-2 mb-4 text-gray-600">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit
+                    vitae quaerat facilis incidunt tempora quibusdam, suscipit
+                    numquam quos voluptatibus cum quidem cumque nemo.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- Card -->
+            <div class="w-full md:w-4/12 px-8 text-center">
+              <div
+                class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg"
+              >
+                <div class="px-4 py-5 flex-auto">
+                  <div
+                    class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-green-400"
+                  ></div>
+                  <!-- Text Box -->
+                  <h6 class="text-xl font-semibold">Slide 3</h6>
+                  <p class="mt-2 mb-4 text-gray-600">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit
+                    vitae quaerat facilis incidunt tempora quibusdam, suscipit
+                    numquam quos voluptatibus cum quidem cumque nemo.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- Card -->
+            <div class="w-full md:w-4/12 px-8 text-center">
+              <div
+                class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg"
+              >
+                <div class="px-4 py-5 flex-auto">
+                  <div
+                    class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-green-400"
+                  ></div>
+                  <!-- Text Box -->
+                  <h6 class="text-xl font-semibold">Slide 3</h6>
+                  <p class="mt-2 mb-4 text-gray-600">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit
+                    vitae quaerat facilis incidunt tempora quibusdam, suscipit
+                    numquam quos voluptatibus cum quidem cumque nemo.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- Card -->
+            <div class="w-full md:w-4/12 px-8 text-center">
+              <div
+                class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg"
+              >
+                <div class="px-4 py-5 flex-auto">
+                  <div
+                    class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-green-400"
+                  ></div>
+                  <!-- Text Box -->
+                  <h6 class="text-xl font-semibold">Slide 3</h6>
+                  <p class="mt-2 mb-4 text-gray-600">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit
+                    vitae quaerat facilis incidunt tempora quibusdam, suscipit
+                    numquam quos voluptatibus cum quidem cumque nemo.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- Card -->
+            <div class="w-full md:w-4/12 px-8 text-center">
+              <div
+                class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg"
+              >
+                <div class="px-4 py-5 flex-auto">
+                  <div
+                    class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-green-400"
+                  ></div>
+                  <!-- Text Box -->
+                  <h6 class="text-xl font-semibold">Slide 3</h6>
+                  <p class="mt-2 mb-4 text-gray-600">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit
+                    vitae quaerat facilis incidunt tempora quibusdam, suscipit
+                    numquam quos voluptatibus cum quidem cumque nemo.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- Card -->
+            <div class="w-full md:w-4/12 px-8 text-center">
+              <div
+                class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg"
+              >
+                <div class="px-4 py-5 flex-auto">
+                  <div
+                    class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-green-400"
+                  ></div>
+                  <!-- Text Box -->
+                  <h6 class="text-xl font-semibold">Slide 3</h6>
+                  <p class="mt-2 mb-4 text-gray-600">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit
+                    vitae quaerat facilis incidunt tempora quibusdam, suscipit
+                    numquam quos voluptatibus cum quidem cumque nemo.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="relative bg-gray-300 pt-8 pb-6">
+        <!-- Footer Text -->
+        <div
+          class="flex flex-wrap items-center justify-center"
+        >
+          <div class="w-full md:w-4/12 px-4 mx-auto text-left">
+            <div class="text-sm text-gray font-normal py-1">
+              Copyright © 2021. All Rights Reserved.
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- End of Footer Section -->
+    <button id="to-top-button" onclick="goToTop()" title="Go To Top"
+        class="hidden fixed z-90 bottom-8 right-8 border-0 w-16 h-16 rounded-full drop-shadow-md bg-indigo-500 text-white text-3xl font-bold">&uarr;</button>
+        <script>
+          var toTopButton = document.getElementById("to-top-button");
+  
+          // When the user scrolls down 200px from the top of the document, show the button
+          window.onscroll = function () {
+              if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+                  toTopButton.classList.remove("hidden");
+              } else {
+                  toTopButton.classList.add("hidden");
+              }
+          }
+  
+          // When the user clicks on the button, smoothy scroll to the top of the document
+          function goToTop() {
+              window.scrollTo({ top: 0, behavior: 'smooth' });
+          }
+      </script>
+  </body>
+</html>
